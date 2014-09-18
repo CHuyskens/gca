@@ -1,0 +1,14 @@
+<div ng-controller="register.controller" >
+	<div style="margin-top:20%; margin-left: auto; margin-right: auto; width: 300px; height: 440px; text-align: center;">
+		
+			<input ng-model="reg.firstName" type="text" class="signin" style="margin-top: 0px;" placeholder="Vorname" />
+			<input ng-model="reg.lastName" type="text" class="signin" style="margin-top: 10px;" placeholder="Nachname" />
+			<input ng-model="reg.username" type="email" class="signin" style="margin-top: 10px;" placeholder="EMail" />
+			<input ng-model="reg.password" type="password" class="signin" style="margin-top: 10px;" placeholder="Passwort" />
+			<input ng-model="reg.password2" type="password" class="signin" style="margin-top: 10px;" placeholder="Wiederholung" />
+			<input ng-click="register()" type="submit" class="signin_submit" style="margin-top: 10px; cursor: pointer;" value="Registrieren" />
+	
+	</div>
+
+
+</div>

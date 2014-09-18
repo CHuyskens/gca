@@ -1,0 +1,13 @@
+<div ng-controller="index.controller" >
+	<div style="margin-top:20%; margin-left: auto; margin-right: auto; width: 300px; height: 240px; text-align: center;">
+		<form name="auth" ng-submit="Auth.login(un, pw)">
+			<input ng-model="un" type="text" class="signin" style="margin-top: 0px;" placeholder="Benutzername" />
+			<input ng-model="pw" type="password" class="signin" style="margin-top: 10px;" placeholder="Passwort" />
+			<input type="submit" class="signin_submit" style="margin-top: 10px; cursor: pointer;" value="Anmelden" />
+		</form>
+	</div>
+	<div style="margin-top:20%; margin-left: auto; margin-right: auto; width: 300px; height: 240px; text-align: center;">
+		<p>Team hier <a ng-click="$location.path('/register')" style="font-weight: 400; cursor: pointer;">registrieren</a></p>
+	</div>
+
+</div>
